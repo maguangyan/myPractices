@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "/home/maguangyan/桌面/my_slamCode/mch5/joinMap/build/compile_commands.json",
+            "browse": {
+                "path": [
+                    
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

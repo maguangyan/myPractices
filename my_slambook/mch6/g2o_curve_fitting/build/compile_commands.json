@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/maguangyan/桌面/my_slamCode/mch6/g2o_curve_fitting/build",
+  "command": "/usr/bin/g++-4.8    -I/usr/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++11 -O3 -g   -o CMakeFiles/curve_fitting.dir/main.cpp.o -c /home/maguangyan/桌面/my_slamCode/mch6/g2o_curve_fitting/main.cpp",
+  "file": "/home/maguangyan/桌面/my_slamCode/mch6/g2o_curve_fitting/main.cpp"
+}
+]

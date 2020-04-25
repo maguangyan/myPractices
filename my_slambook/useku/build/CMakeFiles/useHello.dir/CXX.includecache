@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maguangyan/桌面/slamCode/useku/libHelloSLAM.h
+
+/home/maguangyan/桌面/slamCode/useku/useHello.cpp
+libHelloSLAM.h
+/home/maguangyan/桌面/slamCode/useku/libHelloSLAM.h
+iostream
+-
+

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/maguangyan/桌面/my_slamCode/mch5/joinMap/build",
+  "command": "/usr/bin/g++-4.8   -DDISABLE_PCAP -DDISABLE_PNG -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -isystem /usr/local/include -isystem /usr/local/include/opencv -I/usr/include/eigen3 -I/usr/include/vtk-5.8 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/openni2  -std=c++11 -O3  -Wno-deprecated -g   -o CMakeFiles/joinMap.dir/joinMap.cpp.o -c /home/maguangyan/桌面/my_slamCode/mch5/joinMap/joinMap.cpp",
+  "file": "/home/maguangyan/桌面/my_slamCode/mch5/joinMap/joinMap.cpp"
+}
+]

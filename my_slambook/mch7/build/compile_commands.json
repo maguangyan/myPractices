@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/maguangyan/桌面/my_slamCode/mch7/build",
+  "command": "/usr/bin/g++-4.8    -isystem /usr/local/include -isystem /usr/local/include/opencv  -g   -o CMakeFiles/feature_extraction.dir/feature_extraction.cpp.o -c /home/maguangyan/桌面/my_slamCode/mch7/feature_extraction.cpp",
+  "file": "/home/maguangyan/桌面/my_slamCode/mch7/feature_extraction.cpp"
+}
+]

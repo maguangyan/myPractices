@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/maguangyan/桌面/my_slamCode/mch5/imageBasics/build",
+  "command": "/usr/bin/g++-4.8    -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++11 -g   -o CMakeFiles/imageBasics.dir/imageBasics.cpp.o -c /home/maguangyan/桌面/my_slamCode/mch5/imageBasics/imageBasics.cpp",
+  "file": "/home/maguangyan/桌面/my_slamCode/mch5/imageBasics/imageBasics.cpp"
+}
+]

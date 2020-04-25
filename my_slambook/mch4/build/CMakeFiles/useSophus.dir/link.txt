@@ -1,0 +1,1 @@
+/usr/bin/g++-4.8   -g   CMakeFiles/useSophus.dir/useSophus.cpp.o  -o useSophus -rdynamic /home/maguangyan/3rdparty/Sophus/libSophus.so -Wl,-rpath,/home/maguangyan/3rdparty/Sophus 

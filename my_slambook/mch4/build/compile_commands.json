@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/maguangyan/桌面/my_slamCode/mch4/build",
+  "command": "/usr/bin/g++-4.8    -I/home/maguangyan/3rdparty/Sophus -I/usr/include/eigen3  -g   -o CMakeFiles/useSophus.dir/useSophus.cpp.o -c /home/maguangyan/桌面/my_slamCode/mch4/useSophus.cpp",
+  "file": "/home/maguangyan/桌面/my_slamCode/mch4/useSophus.cpp"
+}
+]

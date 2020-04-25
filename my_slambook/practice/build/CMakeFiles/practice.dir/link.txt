@@ -1,0 +1,1 @@
+/usr/bin/g++-4.8   -g   CMakeFiles/practice.dir/main.cpp.o  -o practice -rdynamic 
