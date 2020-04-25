@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/yan/Desktop/my_slambook/ch12/build",
+  "command": "/usr/bin/g++-5    -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++11 -O3 -O3 -DNDEBUG   -o CMakeFiles/loop_closure.dir/loop_closure.cpp.o -c /home/yan/Desktop/my_slambook/ch12/loop_closure.cpp",
+  "file": "/home/yan/Desktop/my_slambook/ch12/loop_closure.cpp"
+},
+{
+  "directory": "/home/yan/Desktop/my_slambook/ch12/build",
+  "command": "/usr/bin/g++-5    -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++11 -O3 -O3 -DNDEBUG   -o CMakeFiles/feature_tranining.dir/feature_tranining.cpp.o -c /home/yan/Desktop/my_slambook/ch12/feature_tranining.cpp",
+  "file": "/home/yan/Desktop/my_slambook/ch12/feature_tranining.cpp"
+}
+]
