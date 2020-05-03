@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yan/Desktop/practices/learnSlamfrom0/005_practice/build",
+  "command": "/usr/bin/g++-5    -I/usr/include/eigen3  -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/useEigen.dir/useEigen.cpp.o -c /home/yan/Desktop/practices/learnSlamfrom0/005_practice/useEigen.cpp",
+  "file": "/home/yan/Desktop/practices/learnSlamfrom0/005_practice/useEigen.cpp"
+}
+]

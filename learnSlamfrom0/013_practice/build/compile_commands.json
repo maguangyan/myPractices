@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/yan/Desktop/practices/learnSlamfrom0/013_practice/build/src",
+  "command": "/usr/bin/g++-5   -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/yan/Desktop/practices/learnSlamfrom0/013_practice/include -isystem /usr/local/include/vtk-7.1 -isystem /usr/local/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 -I/include -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++11  -g   -march=native -msse4.2 -mfpmath=sse -std=gnu++14 -o CMakeFiles/pointCloudFusion.dir/pointCloudFusion.cpp.o -c /home/yan/Desktop/practices/learnSlamfrom0/013_practice/src/pointCloudFusion.cpp",
+  "file": "/home/yan/Desktop/practices/learnSlamfrom0/013_practice/src/pointCloudFusion.cpp"
+},
+{
+  "directory": "/home/yan/Desktop/practices/learnSlamfrom0/013_practice/build/src",
+  "command": "/usr/bin/g++-5   -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dqh_QHpointer -Dslambase_shared_EXPORTS -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/yan/Desktop/practices/learnSlamfrom0/013_practice/include -isystem /usr/local/include/vtk-7.1 -isystem /usr/local/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 -I/include -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++11  -g -fPIC   -march=native -msse4.2 -mfpmath=sse -std=gnu++14 -o CMakeFiles/slambase_shared.dir/slamBase.cpp.o -c /home/yan/Desktop/practices/learnSlamfrom0/013_practice/src/slamBase.cpp",
+  "file": "/home/yan/Desktop/practices/learnSlamfrom0/013_practice/src/slamBase.cpp"
+}
+]

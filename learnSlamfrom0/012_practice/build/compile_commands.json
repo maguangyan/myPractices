@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yan/Desktop/practices/learnSlamfrom0/012_practice/build",
+  "command": "/usr/bin/g++-5    -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/virtual-billboard.dir/virtual-billboard.cpp.o -c /home/yan/Desktop/practices/learnSlamfrom0/012_practice/virtual-billboard.cpp",
+  "file": "/home/yan/Desktop/practices/learnSlamfrom0/012_practice/virtual-billboard.cpp"
+}
+]

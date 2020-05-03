@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yan/Desktop/practices/learnSlamfrom0/011_practice/build",
+  "command": "/usr/bin/g++-5    -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++11 -g   -o CMakeFiles/epipolar.dir/epipolar.cpp.o -c /home/yan/Desktop/practices/learnSlamfrom0/011_practice/epipolar.cpp",
+  "file": "/home/yan/Desktop/practices/learnSlamfrom0/011_practice/epipolar.cpp"
+}
+]

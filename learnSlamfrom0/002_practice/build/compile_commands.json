@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/yan/Desktop/practices/learnSlamfrom0/002_practice/build",
+  "command": "/usr/bin/g++-5    -I/usr/include/eigen3 -I/usr/local/include -I/usr/local/include/opencv  -g   -o CMakeFiles/eigenRotate.dir/eigenRotate.cpp.o -c /home/yan/Desktop/practices/learnSlamfrom0/002_practice/eigenRotate.cpp",
+  "file": "/home/yan/Desktop/practices/learnSlamfrom0/002_practice/eigenRotate.cpp"
+},
+{
+  "directory": "/home/yan/Desktop/practices/learnSlamfrom0/002_practice/build",
+  "command": "/usr/bin/g++-5    -I/usr/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv  -g   -o CMakeFiles/convertIndex.dir/convertIndex.cpp.o -c /home/yan/Desktop/practices/learnSlamfrom0/002_practice/convertIndex.cpp",
+  "file": "/home/yan/Desktop/practices/learnSlamfrom0/002_practice/convertIndex.cpp"
+}
+]

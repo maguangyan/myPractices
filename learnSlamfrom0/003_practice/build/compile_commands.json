@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yan/Desktop/practices/learnSlamfrom0/003_practice/build",
+  "command": "/usr/bin/g++-5    -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++11 -g   -o CMakeFiles/my_sort.dir/my_sort.cpp.o -c /home/yan/Desktop/practices/learnSlamfrom0/003_practice/my_sort.cpp",
+  "file": "/home/yan/Desktop/practices/learnSlamfrom0/003_practice/my_sort.cpp"
+}
+]
