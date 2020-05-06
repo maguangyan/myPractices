@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yan/Desktop/practices/learnSlamfrom0/015_practice/build/src",
+  "command": "/usr/bin/g++-5   -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/local/include/vtk-7.1 -isystem /usr/local/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++11  -g   -march=native -msse4.2 -mfpmath=sse -std=gnu++14 -o CMakeFiles/pointCloud2Mesh.dir/pointCloud2Mesh.cpp.o -c /home/yan/Desktop/practices/learnSlamfrom0/015_practice/src/pointCloud2Mesh.cpp",
+  "file": "/home/yan/Desktop/practices/learnSlamfrom0/015_practice/src/pointCloud2Mesh.cpp"
+}
+]

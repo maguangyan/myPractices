@@ -16,7 +16,7 @@ int main( int argc, char** argv )
 {
     CAMERA_INTRINSIC_PARAMETERS cameraParams{517.0,516.0,318.6,255.3,5000.0};
     int frameNum = 3;
-    vector<Eigen::Isometry3d> poses;
+    vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> poses;
     PointCloud::Ptr fusedCloud(new PointCloud());
     string path = "./data/";
     string cameraPosePath = path + "cameraTrajectory.txt";

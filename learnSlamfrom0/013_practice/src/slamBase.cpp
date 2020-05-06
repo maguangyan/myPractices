@@ -39,17 +39,17 @@ PointCloud::Ptr pointCloudFusion( PointCloud::Ptr &original, FRAME& newFrame, Ei
 	// ---------- 开始你的代码  ------------- -//
 	// 简单的点云叠加融合
     PointCloud::Ptr newCloud(new PointCloud()), transCloud(new PointCloud());
-    newCloud = image2PointCloud(newFrame.rgb, newFrame.depth,camera);
+    newCloud = image2PointCloud(newFrame.rgb, newFrame.depth,camera);   // 此时的点云有像素信息，位置xyz为相机坐标系下的坐标
 
-    pcl::transformPointCloud(*newCloud,*transCloud,T.matrix());
-    *original += *transCloud;
+    pcl::transformPointCloud(*newCloud,*transCloud,T.matrix()); //  将新点云从相机坐标系转为世界坐标系
+    *original += *transCloud;   // 更新点云
     return original;
     // ---------- 结束你的代码  ------------- -//
 }
 
 
-void readCameraTrajectory(string camTransFile, vector<Eigen::Isometry3d> &poses)
-{
+void readCameraTrajectory(string camTransFile, vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> &poses)
+{ 
     ifstream fcamTrans(camTransFile);
     if(!fcamTrans.is_open())
     {
@@ -74,7 +74,9 @@ void readCameraTrajectory(string camTransFile, vector<Eigen::Isometry3d> &poses)
 
         T.rotate(quad);
         T.pretranslate(t);
+        //cout<<"test "<<endl;
         poses.push_back(T);
+       
     }
 
 	// ---------- 结束你的代码  ------------- -//

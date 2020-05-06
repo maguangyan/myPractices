@@ -30,4 +30,4 @@ struct FRAME
 
 PointCloud::Ptr image2PointCloud(Mat rgb, Mat depth, CAMERA_INTRINSIC_PARAMETERS camera);
 PointCloud::Ptr pointCloudFusion( PointCloud::Ptr &original, FRAME& newFrame, Eigen::Isometry3d T, CAMERA_INTRINSIC_PARAMETERS camera );
-void readCameraTrajectory(string camTransFile, vector<Eigen::Isometry3d> &poses);
+void readCameraTrajectory(string camTransFile, vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> &poses);
